@@ -19,12 +19,12 @@ configurations {
 
 dependencies {
     annotationProcessor platform("io.micronaut:micronaut-bom:$micronautVersion")
-    annotationProcessor "io.micronaut.data:micronaut-data-processor"
+    annotationProcessor "io.micronaut.data:micronaut-data-processor:1.0.1"
     annotationProcessor "io.micronaut:micronaut-inject-java"
     annotationProcessor "io.micronaut:micronaut-validation"
     implementation platform("io.micronaut:micronaut-bom:$micronautVersion")
     implementation "io.micronaut.configuration:micronaut-jdbc-tomcat"
-    implementation "io.micronaut.data:micronaut-data-jdbc"
+    implementation "io.micronaut.data:micronaut-data-jdbc:1.0.1"
     implementation "io.micronaut:micronaut-http-client"
     implementation "io.micronaut:micronaut-inject"
     implementation "io.micronaut:micronaut-validation"

@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: data.empty.asso
+---
+testFramework: junit
+sourceLanguage: java
